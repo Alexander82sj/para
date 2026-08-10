@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Manuela ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==========================================
+         PANTALLA DE ENTRADA
+    =========================================== -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-heart">
+                ❤️
+            </div>
+
+            <h1>
+                para Ti ❤️
+            </h1>
+
+            <p>
+                Preparé este pequeño universo
+                especialmente para ti ✨
+            </p>
+
+            <button id="startBtn">
+                Entrar ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         ESCENA 3D
+    =========================================== -->
+
+    <div id="scene"></div>
+
+
+    <!-- ==========================================
+         CORAZONES FLOTANTES
+    =========================================== -->
+
+    <div id="floatingHearts"></div>
+
+
+    <!-- ==========================================
+         CONTENIDO PRINCIPAL
+    =========================================== -->
+
+    <div class="overlay" id="mainContent">
+
+        <h1 class="title">
+            ❤️ Manuela ❤️
+        </h1>
+
+        <h2 class="subtitle">
+            Eres mi universo infinito ✨
+        </h2>
+
+        <div class="buttons">
+
+            <button id="loveBtn">
+                💌 Abrir Carta
+            </button>
+
+            <button id="musicBtn">
+                🎵 Música
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         MÚSICA
+    =========================================== -->
+
+    <audio id="music" loop preload="auto">
+
+        <source
+            src="assets/musica.mp3"
+            type="audio/mpeg"
+        >
+
+        Tu navegador no puede reproducir este audio.
+
+    </audio>
+
+
+    <!-- ==========================================
+         REPRODUCTOR
+    =========================================== -->
+
+    <div id="musicPlayer">
+
+        <div class="music-icon">
+            🎵
+        </div>
+
+        <div class="music-info">
+
+            <strong>
+                La Oreja de Van Gogh
+            </strong>
+
+            <span>
+                Jueves ❤️
+            </span>
+
+        </div>
+
+        <button id="pauseMusic">
+            ⏸️
+        </button>
+
+    </div>
+
+
+    <!-- ==========================================
+         CARTA
+    =========================================== -->
+
+    <div id="letter">
+
+        <h2>
+            💖 Para Manuela 💖
+        </h2>
+
+        <p>
+
+            Desde que llegaste a mi vida,
+            cada día tiene un brillo diferente.
+
+            <br><br>
+
+            Preparé este pequeño universo
+            especialmente para ti.
+
+            <br><br>
+
+            Espero que cada estrella
+            te recuerde lo especial que eres. ❤️
+
+        </p>
+
+        <button id="closeLetter">
+            Cerrar
+        </button>
+
+    </div>
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
